@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Name">TextView</string>
+    <string name="Edittext">EditText</string>
+    <string name="please_enter_name">Please Enter Name</string>
+    <string name="location">Location</string>
+    <string name="locationedit">LocationEdit</string>
+    <string name="please_enter_location">Please enter location</string>
+    <string name="open_in_google_maps">OPEN IN GOOGLE MAPS</string>
+    <string name="profilepic">ProfilePic</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="Avatar1">TODO</string>
+    <string name="Avatar2">TODO</string>
+    <string name="Avatar3">TODO</string>
+    <string name="Avatar4">TODO</string>
+    <string name="Avatar5">TODO</string>
+    <string name="Avatar6">TODO</string>
+    <string name="imageView2">TODO</string>
+    <string name="name">Name</string>
+</resources>

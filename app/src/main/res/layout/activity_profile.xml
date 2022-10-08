@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:columnCount="3"
+                app:rowCount="2">
+
+                <ImageButton
+                    android:id="@+id/Avatar1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar1"
+                    android:src="@android:drawable/sym_call_outgoing"
+                    tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck"
+                    tools:srcCompat="@android:drawable/sym_call_outgoing" />
+
+                <ImageButton
+                    android:id="@+id/Avatar2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar2"
+                    android:src="@android:drawable/sym_call_missed"
+                    tools:srcCompat="@android:drawable/sym_call_missed" />
+
+                <ImageButton
+                    android:id="@+id/Avatar3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar3"
+                    android:src="@android:drawable/sym_call_incoming"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@android:drawable/sym_call_incoming" />
+
+                <ImageButton
+                    android:id="@+id/Avatar4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar4"
+                    android:src="@android:drawable/stat_sys_vp_phone_call_on_hold"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@android:drawable/stat_sys_vp_phone_call_on_hold" />
+
+                <ImageButton
+                    android:id="@+id/Avatar5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar5"
+                    android:src="@android:drawable/stat_sys_vp_phone_call"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@android:drawable/stat_sys_vp_phone_call" />
+
+                <ImageButton
+                    android:id="@+id/Avatar6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/Avatar6"
+                    android:src="@android:drawable/stat_sys_phone_call_forward"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@android:drawable/stat_sys_phone_call_forward" />
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
